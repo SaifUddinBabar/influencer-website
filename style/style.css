@@ -81,7 +81,7 @@
 
 
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
     .header{
         flex-direction: column;
         gap: 30px;
@@ -149,4 +149,30 @@ margin: 0;
         text-align: center;
         width: 100%;
     }
+}
+
+
+@media screen and (min-width:576px) and (max-width:900px) {
+     
+    
+ .header{
+    margin: 0;
+    padding: 0;
+    max-width: 900px;
+    margin: 0;
+    align-items: center;
+    /* justify-content: space-around; */
+
+
+ }
+ .bg-round{
+    display: none;
+ }
+
+.nav li a
+{
+margin-left: 17px;
+}
+
+
 }
